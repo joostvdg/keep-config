@@ -28,6 +28,14 @@ public class HelloController {
             this.name = name;
             this.dummy = dummy;
         }
+
+        public String getName() {
+            return name;
+        }
+
+        public boolean isDummy() {
+            return dummy;
+        }
     }
 
 
