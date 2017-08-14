@@ -1,0 +1,26 @@
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170809213747"
+generator:
+  name: "SpringBootSeed"
+  group: "atomist"
+  artifact: "spring-team-handlers"
+  version: "0.7.10"
+  origin:
+    repo: "git@github.com:atomisthq/spring-team-handlers.git"
+    branch: "175d5b082a8c2a03252f2f08110ed9ff6d8f0374"
+    sha: "175d5b0"
+  parameters:
+    - "description": "my new project"
+    - "serviceClassName": "RestService"
+    - "groupId": "com.github.joostvdg"
+    - "follows": "true"
+    - "org": "atomist-seeds"
+    - "artifactId": "keep-config"
+    - "repo": "spring-rest-seed"
+    - "rootPackage": "com.github.joostvdg.keepwatching"
+    - "version": "0.1.0-SNAPSHOT"
+    - "branch": "master"
+    - "visibility": "public"
+
