@@ -19,6 +19,11 @@ public class HelloController {
         private final String name;
         private final boolean dummy;
 
+        public Dummy() {
+            this.name = "";
+            this.dummy = true;
+        }
+
         private Dummy(String name, boolean dummy){
             this.name = name;
             this.dummy = dummy;
