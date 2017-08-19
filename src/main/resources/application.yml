@@ -4,9 +4,11 @@ spring:
       server:
         git:
           uri: https://github.com/joostvdg/config
+        encrypt:
+          enabled: false
 encrypt:
   keyStore:
     location: classpath:/config-server.jks
-    password: my-s70r3-s3cr3t
+    password: nothepassword
     alias: config-server-key
-    secret: my-k34-s3cr3t
+    secret: nothepassword
