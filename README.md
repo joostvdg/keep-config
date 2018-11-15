@@ -2,6 +2,8 @@
 
 This project contains my new project.
 
+[![DepShield Badge](https://depshield.sonatype.org/badges/joostvdg/keep-config/depshield.svg)](https://depshield.github.io)
+
 ## Development
 
 This project is driven using [Maven][mvn].
